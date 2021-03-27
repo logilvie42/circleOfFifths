@@ -1,0 +1,103 @@
+
+
+.circle {
+    overflow:hidden;
+    position: absolute;
+    margin-bottom: 10%;
+    transform: rotate(-15deg);
+    top: 30%;
+    left: 20%;
+   
+    padding: 2%;
+    width: 800px; height: 800px;
+    border-radius: 50%;
+    list-style: none;
+    border: 5px solid #f18;
+   
+  }
+  .majorList {
+    overflow: hidden;
+    position: absolute;
+    top: 0; right: 0;
+    width: 50%; height: 50%;
+    transform-origin: 0% 100%; 
+    border: 3px solid #f18;
+  }
+  .majorList:first-child {
+    overflow: hidden;
+    transform: rotate(0deg) ;
+  }
+
+.majorList:nth-child(2){
+    overflow: hidden;
+    transform: rotate(30deg);
+  }
+.majorList:nth-child(3)  {
+    overflow: hidden;
+    transform: rotate(60deg);
+  }
+.majorList:nth-child(4) {
+    overflow: hidden;
+    transform: rotate(90deg) ;
+  }
+.majorList:nth-child(5){
+    overflow: hidden;
+    transform: rotate(120deg);
+  }
+.majorList:nth-child(6) {
+    overflow: hidden;
+    transform: rotate(150deg);
+  }
+  .majorList:nth-child(7){
+    overflow: hidden;
+    transform: rotate(180deg);
+  }
+  .majorList:nth-child(8){
+    overflow: hidden;
+    transform: rotate(210deg);
+  }
+  .majorList:nth-child(9) {
+    overflow: hidden;
+    transform: rotate(240deg);
+  }
+  .majorList:nth-child(10) {
+    overflow: hidden;
+    transform: rotate(270deg);
+  }
+  .majorList:nth-child(11) {
+    overflow: hidden;
+    transform: rotate(300deg);
+  }
+  .majorList:nth-child(12) {
+    overflow: hidden;
+    transform: rotate(330deg);
+  } 
+  .major{ 
+    overflow: hidden;
+    padding: 2% 5%;
+    background-color: chartreuse;
+    
+    font-size: 4em;
+    font-family: 'Oi', cursive;
+    color: gold;
+    position: absolute;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-shadow: -2px 3px 2px black;
+    
+   
+}
+
+header{ 
+
+    height: 15%;
+    width: 100%;
+background-color: orange;}
+
+
+.container{
+    background-color: chartreuse;
+    height: 100vh;
+    width: 100vw;
+}

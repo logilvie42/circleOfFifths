@@ -1,0 +1,195 @@
+
+
+html{
+     background: yellowgreen;
+  
+    }
+
+header{
+    position: absolute;
+    width: 100%;
+    background-color: orange;
+
+}
+
+
+h1{
+    padding: 2% 5%;
+    font-family: 'Oi', cursive;
+    color: gold; 
+    font-size: 4em;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: orange;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-shadow: -5px -5px 2px black,
+                  5px 5px 2px black,
+                 -25px 7px 2px purple;
+    letter-spacing: -2px;
+    line-height: 80px;
+  
+}
+
+
+.circleOfFifths{
+    background-color: chartreuse;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.rootArrow1{
+    position: absolute;
+    background: purple;
+    border: 15px solid #f18;
+    width: 100px;
+    height: 100px;
+    top: 40%; left: 50%;
+    transform: rotate(135deg);
+    box-shadow:-4px -4px 3px #888787,
+                2px 2px 3px #888787;
+    z-index: 1;
+}
+
+.rootArrow1 h2{   
+    font-size: 1.9em;
+    font-family: 'Oi', cursive;
+    color: gold; 
+    transform: rotate(-135deg);
+    letter-spacing: -3px;
+    text-shadow: -4px -4px 2px black,
+                  4px 4px 2px black; 
+}
+
+
+
+.majorWheel, .minorWheel, .intervalWheel{
+    background: purple;
+    border-radius: 50%;
+    border: 15px solid #f18;
+    position: absolute;
+    list-style: none;
+}
+
+/* ----- make all wheels unordered lists ------------*/
+
+.majorWheel{
+    overflow: hidden;
+    position: absolute;
+    width: 800px; height: 800px;
+    transform: rotate(-15deg);
+    top: 50%;
+    left: 20%;
+    padding: 2%;
+    box-shadow: 5px 5px 3px #888787,
+                -2px -2px 3px #888787;
+}
+
+
+.majorList{  
+    overflow: hidden;
+    position: absolute;
+    top: 0; right: 0;
+    width: 50%;
+    height: 50%;
+    transform-origin: 0% 100%;
+    border: 3px solid #f18;
+  }
+
+
+.major{ 
+    overflow: hidden;
+    padding: 5% 5%;
+    width: 33%; height: 25%;
+    transform: rotate(15deg);
+    background-color: transparent;
+    
+    font-size: 4em;
+    font-family: 'Oi', cursive;
+    color: gold;
+    position: absolute;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-shadow: -2px 3px 2px black;
+}
+
+
+.majorList:first-child {
+    overflow: hidden;
+    transform: rotate(0deg) ;
+  }
+
+.majorList:nth-child(2){
+    overflow: hidden;
+    transform: rotate(30deg);
+  }
+.majorList:nth-child(3)  {
+    overflow: hidden;
+    transform: rotate(60deg);
+  }
+.majorList:nth-child(4) {
+    overflow: hidden;
+    transform: rotate(90deg) ;
+  }
+.majorList:nth-child(5){
+    overflow: hidden;
+    transform: rotate(120deg);
+  }
+.majorList:nth-child(6) {
+    overflow: hidden;
+    transform: rotate(150deg);
+  }
+  .majorList:nth-child(7){
+    overflow: hidden;
+    transform: rotate(180deg);
+  }
+  .majorList:nth-child(8){
+    overflow: hidden;
+    transform: rotate(210deg);
+  }
+  .majorList:nth-child(9) {
+    overflow: hidden;
+    transform: rotate(240deg);
+  }
+  .majorList:nth-child(10) {
+    overflow: hidden;
+    transform: rotate(270deg);
+  }
+  .majorList:nth-child(11) {
+    overflow: hidden;
+    transform: rotate(300deg);
+  }
+  .majorList:nth-child(12) {
+    overflow: hidden;
+    transform: rotate(330deg);
+  } 
+
+
+.minorWheel{
+    width: 550px;
+    height: 550px;
+    top: -120px;
+    left: -400px;
+    box-shadow: 1px 1px 3px #888787;
+    z-index: 2; 
+}   
+
+.intervalWheel{
+    width: 300px;
+    height: 300px;
+    top: 5px;
+    right: -50px;
+    box-shadow: 1px 1px 3px #888787;
+    z-index: 3 ;
+}
+
+footer{
+    background-color: orange;
+    position:  absolute;
+    height: 15%;
+    right: 0%;
+    width: 100%;
+    top: 150%;
+}
+
